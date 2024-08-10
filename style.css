@@ -1,0 +1,82 @@
+html{
+    background-color: #faf5f5;
+    font-family: "Trebuchet MS";
+}
+body{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+nav{
+    background-color: #FD6C35;
+    display: flex;
+    justify-content: space-between;
+    margin: 0
+}
+.navbar{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    overflow: hidden;
+
+}
+#logo{
+    width: 65px;
+    height: 50px;
+    margin-left: 0;
+}
+.items{
+    font-size: 115%;
+    padding: 15px;
+}
+.items:hover{
+    background-image: linear-gradient(#13b6f7, rgb(226, 238, 242));
+    scale: 1.2;
+    border-radius: 15px;
+}
+#intro{
+    display: flex;
+    justify-content: space-evenly;
+    padding:0;
+    height:70%;
+}
+#hello{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 500%;
+    margin-top: 25px;
+    margin-bottom: 0 ;
+}
+#name_item{
+    display: flex;
+    justify-content: space-between;
+    font-size: 500%;
+    padding: 0;
+    margin: 0px;
+    margin-top: 20px;
+    width: 105%
+}
+#name{
+    color: #FD6C35;
+    font-family: "Bradley hand";
+}
+#about_me{
+    display: flex;
+    background-image: linear-gradient(to bottom right, #35C6FD, #ffffff);
+    border-radius: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 500px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 75px;
+    border: 1px solid #35C6FD;
+}
+#about_header{
+    color: #FD6C35;
+}
+#portrait{
+    width: 300px;
+    border-radius: 10px;
+}
