@@ -6,12 +6,18 @@ body{
     margin-top: 0;
     margin-left: 0;
     margin-right: 0;
+
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
 }
 nav{
     background-color: #FD6C35;
     display: flex;
     justify-content: space-between;
-    margin: 0
+    margin: 0;
+    width: 100%
 }
 .navbar{
     position: fixed;
@@ -48,7 +54,7 @@ nav{
 }
 #name_item{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     font-size: 500%;
     padding: 0;
     margin: 0px;
@@ -58,25 +64,31 @@ nav{
 #name{
     color: #FD6C35;
     font-family: "Bradley hand";
+    margin-left: 20px;
 }
+
 #about_me{
+    width: 800px;
     display: flex;
-    background-image: linear-gradient(to bottom right, #35C6FD, #ffffff);
-    border-radius: 10px;
-    flex-direction: column;
-    flex-wrap: wrap;
-    height: 500px;
-    width: 500px;
-    justify-content: center;
+    align-items: center;
     text-align: center;
-    margin-left: 300px;
-    margin-top: 75px;
-    border: 1px solid #35C6FD;
+    margin-top: 30px;
+    /*margin-left: 300px;
+    margin-top: 75px;*/
+    
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom right, #35C6FD, #ffffff);
+    box-shadow: 10px 10px 10px 5px #E1DbD8;
 }
-#about_header{
+.header{
     color: #FD6C35;
 }
 #portrait{
     width: 300px;
     border-radius: 10px;
+    box-shadow: 10px 10px 10px 5px #E1DbD8;
+}
+#text{
+    margin: 10px;
+    font-size: 110%;
 }
